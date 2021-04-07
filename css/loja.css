@@ -1,0 +1,110 @@
+.bg-loja {
+  background: url(/Imagens/background_Loja.png) center;
+  background-size: cover;
+  height: 240px;
+}
+
+.loja h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #c4c4c4;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.loja h2 span {
+  background: #f8f8f8;
+  padding: 0 10px;
+}
+
+.col-2.bg-branco.sidebar {
+  width: 205px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  top: 689px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 47px;
+}
+
+.sidebar {
+  height: 560px;
+}
+
+.sidebar h4 {
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 5px;
+}
+
+.pl-cat {
+  padding-left: 20px;
+}
+
+.sidebar-sep {
+  background: #c4c4c4;
+  width: 167px;
+  height: 1px;
+  margin-left: 20px;
+}
+
+.accordion-item.border-0 {
+  margin-bottom: 1px;
+}
+
+.accordion-button:not(.collapsed) {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #fff;
+  background-color: #a130aa;
+  box-shadow: none;
+}
+
+.accordion-button {
+  font-size: 13px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:hover {
+  color: #fff;
+  border-radius: 3px;
+  background: #a130aa;
+  transition: 0.3s;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+.accordion-body ul {
+  padding: 0;
+}
+
+.accordion-body ul li a {
+  font-family: EB Garamond;
+  font-size: 16px;
+  color: #fff;
+}
+
+.accordion-body ul li a:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.accordion-body {
+  background: #bb45c4;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Responsivo loja */
+
+@media screen and (max-width: 576px) {
+}

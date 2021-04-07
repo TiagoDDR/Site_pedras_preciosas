@@ -1,0 +1,30 @@
+.separador-login::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #c4c4c4;
+  float: left;
+}
+
+.col-6.py-5.separador-login {
+  padding-left: 0px;
+}
+
+.padding-r-0 {
+  padding-right: 0px;
+}
+
+.row.caixa-login.bg-white {
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 8%);
+  border-radius: 5px;
+}
+
+h2.text-center.my-5 {
+  line-height: 28px;
+}
+
+.form-check-input:checked {
+  background-color: #a130aa;
+  border-color: #a130aa;
+}

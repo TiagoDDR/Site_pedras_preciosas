@@ -1,0 +1,7 @@
+Largura conteudo 1170px
+Largura tela 1800px
+
+Separadores cinza claro
+
+Tipografia---Titulos Eb Garamound
+-------------Corpo Roboto
